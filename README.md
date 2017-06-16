@@ -4,6 +4,9 @@
 
 CXPhotoBrower是一个图片浏览工具，类似微博、微信浏览方式。
 
+### 效果图
+![cxphotobrower](https://github.com/bugWacko/CXPhotoBrower/blob/master/CXPhotoBrower/CXPhotoBrower.gif?raw=true)
+
 在这里面有几个值得关注的点：
 
 * 添加方式
