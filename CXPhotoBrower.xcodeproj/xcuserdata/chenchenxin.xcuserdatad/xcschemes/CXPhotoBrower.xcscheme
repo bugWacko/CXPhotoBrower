@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "11C4532C1EEEA44E00769BE0"
+               BuildableName = "CXPhotoBrower.app"
+               BlueprintName = "CXPhotoBrower"
+               ReferencedContainer = "container:CXPhotoBrower.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "11C453451EEEA44F00769BE0"
+               BuildableName = "CXPhotoBrowerTests.xctest"
+               BlueprintName = "CXPhotoBrowerTests"
+               ReferencedContainer = "container:CXPhotoBrower.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "11C453501EEEA44F00769BE0"
+               BuildableName = "CXPhotoBrowerUITests.xctest"
+               BlueprintName = "CXPhotoBrowerUITests"
+               ReferencedContainer = "container:CXPhotoBrower.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "11C4532C1EEEA44E00769BE0"
+            BuildableName = "CXPhotoBrower.app"
+            BlueprintName = "CXPhotoBrower"
+            ReferencedContainer = "container:CXPhotoBrower.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "11C4532C1EEEA44E00769BE0"
+            BuildableName = "CXPhotoBrower.app"
+            BlueprintName = "CXPhotoBrower"
+            ReferencedContainer = "container:CXPhotoBrower.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "11C4532C1EEEA44E00769BE0"
+            BuildableName = "CXPhotoBrower.app"
+            BlueprintName = "CXPhotoBrower"
+            ReferencedContainer = "container:CXPhotoBrower.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

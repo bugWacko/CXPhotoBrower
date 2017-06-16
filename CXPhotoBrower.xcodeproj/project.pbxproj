@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		115340621EF37BBA00707153 /* LocationImageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 115340611EF37BBA00707153 /* LocationImageVC.m */; };
+		115340651EF37BD100707153 /* NetworkImageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 115340641EF37BD100707153 /* NetworkImageVC.m */; };
 		11C453321EEEA44E00769BE0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C453311EEEA44E00769BE0 /* main.m */; };
 		11C453351EEEA44E00769BE0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C453341EEEA44E00769BE0 /* AppDelegate.m */; };
 		11C453381EEEA44E00769BE0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C453371EEEA44E00769BE0 /* ViewController.m */; };
@@ -15,6 +17,21 @@
 		11C453401EEEA44E00769BE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11C4533E1EEEA44E00769BE0 /* LaunchScreen.storyboard */; };
 		11C4534B1EEEA44F00769BE0 /* CXPhotoBrowerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C4534A1EEEA44F00769BE0 /* CXPhotoBrowerTests.m */; };
 		11C453561EEEA44F00769BE0 /* CXPhotoBrowerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C453551EEEA44F00769BE0 /* CXPhotoBrowerUITests.m */; };
+		11C453661EEF822E00769BE0 /* CXPhotoBrower.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C453651EEF822E00769BE0 /* CXPhotoBrower.m */; };
+		11C453691EEF825700769BE0 /* CXPhotoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C453681EEF825700769BE0 /* CXPhotoModel.m */; };
+		11C4536C1EEF91AC00769BE0 /* CXPhotoImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C4536B1EEF91AC00769BE0 /* CXPhotoImageView.m */; };
+		11C4536F1EEF91E900769BE0 /* CXPhotoCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C4536E1EEF91E900769BE0 /* CXPhotoCollectionCell.m */; };
+		11C4537E1EEFCDA600769BE0 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11C453751EEFCDA600769BE0 /* 1.jpg */; };
+		11C4537F1EEFCDA600769BE0 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11C453761EEFCDA600769BE0 /* 2.jpg */; };
+		11C453801EEFCDA600769BE0 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11C453771EEFCDA600769BE0 /* 3.jpg */; };
+		11C453811EEFCDA600769BE0 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11C453781EEFCDA600769BE0 /* 4.jpg */; };
+		11C453821EEFCDA600769BE0 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11C453791EEFCDA600769BE0 /* 5.jpg */; };
+		11C453831EEFCDA600769BE0 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11C4537A1EEFCDA600769BE0 /* 6.jpg */; };
+		11C453841EEFCDA600769BE0 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11C4537B1EEFCDA600769BE0 /* 7.jpg */; };
+		11C453851EEFCDA600769BE0 /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11C4537C1EEFCDA600769BE0 /* 8.jpg */; };
+		11C453861EEFCDA600769BE0 /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11C4537D1EEFCDA600769BE0 /* 9.jpg */; };
+		11DA652C1EF281B400C51CAB /* CXProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 11DA652B1EF281B400C51CAB /* CXProgressHUD.m */; };
+		1D8E289ACA920CCBE6BB3D92 /* libPods-CXPhotoBrower.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E53860C6FD958EFF9A7C973D /* libPods-CXPhotoBrower.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +52,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		115340601EF37BBA00707153 /* LocationImageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationImageVC.h; sourceTree = "<group>"; };
+		115340611EF37BBA00707153 /* LocationImageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationImageVC.m; sourceTree = "<group>"; };
+		115340631EF37BD100707153 /* NetworkImageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkImageVC.h; sourceTree = "<group>"; };
+		115340641EF37BD100707153 /* NetworkImageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkImageVC.m; sourceTree = "<group>"; };
 		11C4532D1EEEA44E00769BE0 /* CXPhotoBrower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CXPhotoBrower.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11C453311EEEA44E00769BE0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		11C453331EEEA44E00769BE0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +72,29 @@
 		11C453511EEEA44F00769BE0 /* CXPhotoBrowerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CXPhotoBrowerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		11C453551EEEA44F00769BE0 /* CXPhotoBrowerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXPhotoBrowerUITests.m; sourceTree = "<group>"; };
 		11C453571EEEA44F00769BE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11C453641EEF822E00769BE0 /* CXPhotoBrower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXPhotoBrower.h; sourceTree = "<group>"; };
+		11C453651EEF822E00769BE0 /* CXPhotoBrower.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXPhotoBrower.m; sourceTree = "<group>"; };
+		11C453671EEF825700769BE0 /* CXPhotoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXPhotoModel.h; sourceTree = "<group>"; };
+		11C453681EEF825700769BE0 /* CXPhotoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXPhotoModel.m; sourceTree = "<group>"; };
+		11C4536A1EEF91AC00769BE0 /* CXPhotoImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXPhotoImageView.h; sourceTree = "<group>"; };
+		11C4536B1EEF91AC00769BE0 /* CXPhotoImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXPhotoImageView.m; sourceTree = "<group>"; };
+		11C4536D1EEF91E900769BE0 /* CXPhotoCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXPhotoCollectionCell.h; sourceTree = "<group>"; };
+		11C4536E1EEF91E900769BE0 /* CXPhotoCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXPhotoCollectionCell.m; sourceTree = "<group>"; };
+		11C453741EEFC70D00769BE0 /* CXPhotoPch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXPhotoPch.h; sourceTree = "<group>"; };
+		11C453751EEFCDA600769BE0 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		11C453761EEFCDA600769BE0 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		11C453771EEFCDA600769BE0 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		11C453781EEFCDA600769BE0 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		11C453791EEFCDA600769BE0 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		11C4537A1EEFCDA600769BE0 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		11C4537B1EEFCDA600769BE0 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		11C4537C1EEFCDA600769BE0 /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
+		11C4537D1EEFCDA600769BE0 /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
+		11DA652A1EF281B400C51CAB /* CXProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXProgressHUD.h; sourceTree = "<group>"; };
+		11DA652B1EF281B400C51CAB /* CXProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXProgressHUD.m; sourceTree = "<group>"; };
+		949550FDCF3B52D7470BF887 /* Pods-CXPhotoBrower.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CXPhotoBrower.release.xcconfig"; path = "Pods/Target Support Files/Pods-CXPhotoBrower/Pods-CXPhotoBrower.release.xcconfig"; sourceTree = "<group>"; };
+		E53860C6FD958EFF9A7C973D /* libPods-CXPhotoBrower.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CXPhotoBrower.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC9A833910366CC05DC3D783 /* Pods-CXPhotoBrower.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CXPhotoBrower.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CXPhotoBrower/Pods-CXPhotoBrower.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D8E289ACA920CCBE6BB3D92 /* libPods-CXPhotoBrower.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +123,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1153405F1EF37B9600707153 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				115340601EF37BBA00707153 /* LocationImageVC.h */,
+				115340611EF37BBA00707153 /* LocationImageVC.m */,
+				115340631EF37BD100707153 /* NetworkImageVC.h */,
+				115340641EF37BD100707153 /* NetworkImageVC.m */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
 		11C453241EEEA44E00769BE0 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +141,8 @@
 				11C453491EEEA44F00769BE0 /* CXPhotoBrowerTests */,
 				11C453541EEEA44F00769BE0 /* CXPhotoBrowerUITests */,
 				11C4532E1EEEA44E00769BE0 /* Products */,
+				3C7E1A148745BEFE26112C00 /* Pods */,
+				39D3B9CA8F7B5EF97F59511E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +159,8 @@
 		11C4532F1EEEA44E00769BE0 /* CXPhotoBrower */ = {
 			isa = PBXGroup;
 			children = (
+				1153405F1EF37B9600707153 /* Class */,
+				11C453631EEF810900769BE0 /* PhotoBrower */,
 				11C453331EEEA44E00769BE0 /* AppDelegate.h */,
 				11C453341EEEA44E00769BE0 /* AppDelegate.m */,
 				11C453361EEEA44E00769BE0 /* ViewController.h */,
@@ -117,6 +177,15 @@
 		11C453301EEEA44E00769BE0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				11C453751EEFCDA600769BE0 /* 1.jpg */,
+				11C453761EEFCDA600769BE0 /* 2.jpg */,
+				11C453771EEFCDA600769BE0 /* 3.jpg */,
+				11C453781EEFCDA600769BE0 /* 4.jpg */,
+				11C453791EEFCDA600769BE0 /* 5.jpg */,
+				11C4537A1EEFCDA600769BE0 /* 6.jpg */,
+				11C4537B1EEFCDA600769BE0 /* 7.jpg */,
+				11C4537C1EEFCDA600769BE0 /* 8.jpg */,
+				11C4537D1EEFCDA600769BE0 /* 9.jpg */,
 				11C453311EEEA44E00769BE0 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -140,6 +209,41 @@
 			path = CXPhotoBrowerUITests;
 			sourceTree = "<group>";
 		};
+		11C453631EEF810900769BE0 /* PhotoBrower */ = {
+			isa = PBXGroup;
+			children = (
+				11C453641EEF822E00769BE0 /* CXPhotoBrower.h */,
+				11C453651EEF822E00769BE0 /* CXPhotoBrower.m */,
+				11C453671EEF825700769BE0 /* CXPhotoModel.h */,
+				11C453681EEF825700769BE0 /* CXPhotoModel.m */,
+				11C4536A1EEF91AC00769BE0 /* CXPhotoImageView.h */,
+				11C4536B1EEF91AC00769BE0 /* CXPhotoImageView.m */,
+				11C4536D1EEF91E900769BE0 /* CXPhotoCollectionCell.h */,
+				11C4536E1EEF91E900769BE0 /* CXPhotoCollectionCell.m */,
+				11C453741EEFC70D00769BE0 /* CXPhotoPch.h */,
+				11DA652A1EF281B400C51CAB /* CXProgressHUD.h */,
+				11DA652B1EF281B400C51CAB /* CXProgressHUD.m */,
+			);
+			path = PhotoBrower;
+			sourceTree = "<group>";
+		};
+		39D3B9CA8F7B5EF97F59511E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E53860C6FD958EFF9A7C973D /* libPods-CXPhotoBrower.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3C7E1A148745BEFE26112C00 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC9A833910366CC05DC3D783 /* Pods-CXPhotoBrower.debug.xcconfig */,
+				949550FDCF3B52D7470BF887 /* Pods-CXPhotoBrower.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +251,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 11C4535A1EEEA44F00769BE0 /* Build configuration list for PBXNativeTarget "CXPhotoBrower" */;
 			buildPhases = (
+				39294B387D084B20F73C6C80 /* [CP] Check Pods Manifest.lock */,
 				11C453291EEEA44E00769BE0 /* Sources */,
 				11C4532A1EEEA44E00769BE0 /* Frameworks */,
 				11C4532B1EEEA44E00769BE0 /* Resources */,
+				DCFA4718969D136F689952AA /* [CP] Embed Pods Frameworks */,
+				F430FF704C8C2411C3C00E20 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -246,7 +353,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11C453851EEFCDA600769BE0 /* 8.jpg in Resources */,
+				11C453831EEFCDA600769BE0 /* 6.jpg in Resources */,
 				11C453401EEEA44E00769BE0 /* LaunchScreen.storyboard in Resources */,
+				11C453821EEFCDA600769BE0 /* 5.jpg in Resources */,
+				11C453811EEFCDA600769BE0 /* 4.jpg in Resources */,
+				11C4537E1EEFCDA600769BE0 /* 1.jpg in Resources */,
+				11C4537F1EEFCDA600769BE0 /* 2.jpg in Resources */,
+				11C453801EEFCDA600769BE0 /* 3.jpg in Resources */,
+				11C453841EEFCDA600769BE0 /* 7.jpg in Resources */,
+				11C453861EEFCDA600769BE0 /* 9.jpg in Resources */,
 				11C4533D1EEEA44E00769BE0 /* Assets.xcassets in Resources */,
 				11C4533B1EEEA44E00769BE0 /* Main.storyboard in Resources */,
 			);
@@ -268,11 +384,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		39294B387D084B20F73C6C80 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DCFA4718969D136F689952AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CXPhotoBrower/Pods-CXPhotoBrower-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F430FF704C8C2411C3C00E20 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CXPhotoBrower/Pods-CXPhotoBrower-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		11C453291EEEA44E00769BE0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11C4536F1EEF91E900769BE0 /* CXPhotoCollectionCell.m in Sources */,
+				11C4536C1EEF91AC00769BE0 /* CXPhotoImageView.m in Sources */,
+				11C453691EEF825700769BE0 /* CXPhotoModel.m in Sources */,
+				115340651EF37BD100707153 /* NetworkImageVC.m in Sources */,
+				11DA652C1EF281B400C51CAB /* CXProgressHUD.m in Sources */,
+				115340621EF37BBA00707153 /* LocationImageVC.m in Sources */,
+				11C453661EEF822E00769BE0 /* CXPhotoBrower.m in Sources */,
 				11C453381EEEA44E00769BE0 /* ViewController.m in Sources */,
 				11C453351EEEA44E00769BE0 /* AppDelegate.m in Sources */,
 				11C453321EEEA44E00769BE0 /* main.m in Sources */,
@@ -422,6 +593,7 @@
 		};
 		11C4535B1EEEA44F00769BE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC9A833910366CC05DC3D783 /* Pods-CXPhotoBrower.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CXPhotoBrower/Info.plist;
@@ -433,6 +605,7 @@
 		};
 		11C4535C1EEEA44F00769BE0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 949550FDCF3B52D7470BF887 /* Pods-CXPhotoBrower.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CXPhotoBrower/Info.plist;
@@ -507,6 +680,7 @@
 				11C4535C1EEEA44F00769BE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		11C4535D1EEEA44F00769BE0 /* Build configuration list for PBXNativeTarget "CXPhotoBrowerTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +689,7 @@
 				11C4535F1EEEA44F00769BE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		11C453601EEEA44F00769BE0 /* Build configuration list for PBXNativeTarget "CXPhotoBrowerUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +698,7 @@
 				11C453621EEEA44F00769BE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
